@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Mulish:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&family=Mulish:wght@700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+// *************header start**************
+.heading{
+background:  #F5FAFE;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding: 2em;
+padding-left: 0px;
+padding-right: 0px;
+gap: 1em;
+}
+.heading .question-section{
+    display: inline-flex;
+    gap: 1em;
+}
+.heading .gift-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+.heading .question-section{
+    p{
+    font-family: 'Mulish';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    }
+    
+}
+.heading .question-section {
+    span:nth-child(1){
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 900;
+        line-height: 13px;
+        font-size: 14px;
+    }
+   span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    align-self: center;
+   }
+}
+.heading .gift-section .btp-card {
+    span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8em;
+    line-height: .9em;
+    display: contents;
+ }i{
+   font-size: 1em;
+   display: inline-flex;
+   gap: 1em;
+   align-self: baseline;
+ }
+}
+.heading .gift-section .loyality {
+    span{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .8em;
+        line-height: .9em; 
+        display: contents;
+  }i{
+    font-size: 1em;
+    display: inline-flex;
+    gap: 1em;
+    align-items: center;
+ }
+}
+header .besttourplan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2.8em;
+    padding-left: 0px;
+    padding-right: 0px;
+    // gap: 2em;
+}
+header .besttourplan {
+    Strong{
+        font-family: 'Luckiest Guy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+    span{
+        font-family: 'Luckiest Guy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        color: red;
+    }
+}
+header .besttourplan .search-location {
+    position: relative;
+    right: 3%;
+input{
+    width: 250px;
+    height: 40px;
+    background: #F5FAFE;
+    border-radius: .1em;
+    padding-left: 1em;
+ }i{
+    font-size: 1.5em;
+    border-radius: 0px 6px 6px 0px;
+    width: 50px;
+    height: 40px;
+    position: sticky;
+    top: 26%;
+    text-align: center;
+    padding: 0.4em;
+    overflow: hidden;
+    background-color: red;
+ }
+}
+header .besttourplan .cart-login
+{
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+} 
+header .besttourplan .cart{
+    i{
+        font-size: 1.5em;
+        color: black;
+    }
+    
+}
+header .besttourplan .login-sing a{
+   
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: .9em; 
+        align-self: baseline;
+        position: relative;
+        top: 10%;
+        text-decoration: none;
+        color: #EC1F46;
+}
+nav{
+    width: 100vw;
+    background: #0A223D;
+}
+nav .navbar {
+              ul{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-wrap: wrap;
+                  gap: 4.8em;
+                  padding: 2.5em;
+          }
+              li{
+                 list-style: none;
+             }
+                 a{
+                    color: #FFFFFF; 
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: .9em;
+                    line-height: 1.1em;
+                    text-transform: uppercase;
+                    text-decoration: none;
+        }
+}
+// ******************header ends***************
+
+main{
+    background: #F5FAFE;
+    padding: 5em;
+}
+.grand-hilton-hotel{
+    position: absolute;
+    bottom: 40%;
+    left: 13.5%;
+      ul{
+        display: flex;
+      }
+    ul li{
+        list-style: none;
+    }
+    a{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .7em;
+        line-height: .9em;
+        color: #0A223D;
+        text-decoration: none;
+    }
+}
+.parent-grand-hotel-star{
+    display: grid;
+}
+.grand-hotel-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 110px;
+    padding-right: 110px;
+
+       .star{
+        margin-bottom: .3em;
+          i{
+            color: #F2994A;
+            font-size: 1em;
+          }
+       }
+       .main-grand-hotel{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1em;
+             h1{
+                
+                 font-family: 'Mulish';
+                 font-style: normal;
+                 font-weight: 700;
+                 font-size: 1.6em;
+                 line-height: 1.8em;
+                 color: #333333;
+             }
+             a{
+          padding: 1.2em;
+          font-family: 'Mulish';
+          font-style: normal;
+          font-weight: 600;
+          font-size: .5em;
+          line-height: .8em;
+          color: #FFFFFF;
+          background: #EC1F46;
+          text-decoration: none;
+          border-radius: 3px;
+             }
+       }
+       .child-main-grand-hotel{
+           ul{
+             display: flex;
+           }
+              li{
+                 list-style: none;
+               } 
+                 a{
+             text-decoration: none;
+             font-family: 'Mulish';
+             font-style: normal;
+             font-weight: 400;
+             font-size: .7em;
+             line-height: .9em;
+             color: #333333;
+           }
+       }
+}
+.grand-hotel-star .user-ratings{
+    background: #EC1F46;
+    display: grid;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1.2em;
+     a:nth-child(1){
+         font-family: 'Mulish';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 8px;
+         line-height: 10px;
+         color: #FFFFFF;
+         text-decoration: none;
+     }a{
+        text-decoration: none;
+        color: #FFFFFF;
+     }
+}
+.swimming-pool-hotel {
+      .swimming-and-pricelocation{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2em;
+      }
+
+    .img-swimming{
+        border-radius: 8px;
+       
+        img{
+            width: 720px;
+            height: 450px;
+            object-fit: fill;
+            background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+        }
+    }
+}
+.price-location {
+    .price{
+    display: grid;
+    background: #0A223D;
+    border-radius: 8px; 
+    padding: 2em;
+      span:nth-child(2){    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #FFFFFF;
+      }
+      span:nth-child(4){
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5em;
+        line-height: 1.5;
+        color: #FFFFFF;
+        
+      }
+      span{
+        font-family: 'Nunito';
+        font-style: normal;
+         font-weight: 400;
+         font-size: 10px;
+         line-height: 14px;
+         color: #FFFFFF;
+      }
+      button{
+        padding: .5em;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background: #EC1F46;
+        border-radius: 4px;
+      }
+    }
+}

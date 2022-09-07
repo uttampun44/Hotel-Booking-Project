@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)), url('../Images/TwilightHotel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"]{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    width: 20em;
+    text-align: center;
+    border-radius: 5px;
+}
+input[type="email"]{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    width: 20em;
+    text-align: center;
+    border-radius: 5px;
+}
+.form .room select{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    width: 20em;
+    text-align: center;
+    border-radius: 5px;
+}
+.form .twilighthotel-form{
+    border-radius: 10px;
+    h1{
+        color: white;
+        font-weight: 700;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+.form .twilighthotel-form{
+    background-color:black;
+    padding: 5em;
+}
+.form .twilighthotel-form .hotel-form{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1.3em;
+}
+.form .guest{
+    select{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    width: 20em;
+    text-align: center;
+    border-radius: 5px;
+    }
+}
+.form .guest select option{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    text-align: center;
+    border-radius: 5px;
+}
+  input[type="date"]{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    width: 20em;
+    text-align: center;
+    border-radius: 5px;
+}
+.form  .submit button{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: .5em;
+    width: 20em;
+    text-align: center;
+    background: #047034;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
