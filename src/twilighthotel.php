@@ -51,7 +51,7 @@
                    </div>
                     <div class="login-sing">
                         <a href="login.php" action="login.php">Login</a>
-                        <a href="#">Signup</a>
+                        <a href="signup.php">Signup</a>
                     </div>
                </div>
         </div>
