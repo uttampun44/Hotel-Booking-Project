@@ -26,5 +26,10 @@
             </form>
         </div>
     </main>
+    <?php 
+      session_start();
+     include("../database.php");
+
+    ?>
 </body>
 </html>

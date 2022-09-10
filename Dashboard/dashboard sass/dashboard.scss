@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Mulish:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&family=Mulish:wght@700&family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100vw;
+    padding: 1em;
+    padding-left: 25em;
+    background: rgb(75, 75, 187);
+       .search{
+         display: none;
+        input{
+             height: 2em;
+             padding: 1em;
+             border-radius: 100px;
+             outline: none;
+          }
+       }
+       .search-icon{
+        color: white;
+        font-size: 2em;
+        position: relative;
+        left: 13%;
+       }
+    .notification{
+        color: white;
+        font-size: 2em;
+    }
+}
+.dashboard{
+    position: fixed;
+    height: 100vh;
+    background: aliceblue;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.dashboard .dashboard-logo{
+    padding: 5px;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    span:nth-child(2){
+        font-family: "Luckiest Guy";
+        font-style: bold;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 13px;
+        color: red;
+    }
+    span{
+        font-family: "Luckiest Guy";
+        font-style: bold;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 13px;
+    }
+}
+.dashboard-list{
+    padding: 5px;
+    line-height: 2em;
+      a{
+        text-decoration: none;
+        font-family: "Mulish";
+        font-style: bold;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 2em;
+        color: black;
+        padding-left: 1em;
+     }
+}

@@ -9,7 +9,7 @@
     <!-- ****************sass file********************* -->
     <link rel="stylesheet" href="../src/twilighthotelsass/hotel.css">
 
-    <!-- *********fontawesom************* -->
+    <!-- *********fontawesome************* -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous"></script>
   
