@@ -19,6 +19,7 @@ header{
     padding: 1em;
     padding-left: 25em;
     background: rgb(75, 75, 187);
+    
        .search{
          display: none;
         input{
@@ -37,6 +38,12 @@ header{
     .notification{
         color: white;
         font-size: 2em;
+    }
+    .hamburger{
+        color: white;
+        font-size: 2em;
+        position: relative;
+        right: 20%;
     }
 }
 .dashboard{
@@ -81,4 +88,21 @@ header{
         color: black;
         padding-left: 1em;
      }
+}
+
+// ****************customer registeratgion table****************
+
+.main {
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+.customer-registeration{
+    table tr th{
+       border: 1px solid black;
+       font-size: 1.2em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
 }

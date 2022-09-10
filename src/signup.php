@@ -8,6 +8,7 @@
 
     <!-- ***********sign up form**************** -->
     <link rel="stylesheet" href="../form scss/form.css">
+   
 </head>
 <body>
     <main>
@@ -33,7 +34,7 @@
                           <label>Re-type Password</label>
                           <input type="password" required autocomplete="off" name="retypepassword" id="confirmpassword">
                           <span id="password_not_matching"></span>
-                          <button name="submit" id="submit" onclick="return load()">Submit</button>
+                          <button name="submit" id="submit" onclick="submit()">Submit</button>
                     </div>
                 </form>
             </div>
@@ -71,18 +72,35 @@
       ?>
 
       <script type="text/javascript"> 
-           function load(){
-            // return true;
-            let password = document.getElementById('password');
-            let confirm_password = document.getElementById('confirmpassword');
-            let password_macthing = document.getElementById('password_not_matching');
+        //    function load(e){
+        //     // return true;
+        //     let password = document.getElementById('password');
+        //     let confirm_password = document.getElementById('confirmpassword');
+        //     let password_macthing = document.getElementById('password_not_matching');
 
-            if(password == confirm_password){
-              password_macthing.innerText = "password are not matching";
-              password_macthing.style.color = "red";
-            }
+        //     if(password == confirm_password){
+        //       password_macthing.innerText = "password are not matching";
+        //       password_macthing.style.color = "red";
+        //       e.preventDefault();
+        //     }
           
-        }
+        // }
+        let submit = document.getElementById('submit');
+        let password = document.getElementById('password');
+         let confirm_password = document.getElementById('confirmpassword');
+        let password_macthing = document.getElementById('password_not_matching');
+            
+           
+                
+                        function submit(e){
+                             if(password != confirm_password){
+                            password_macthing.innerText = "password are not matching";
+                            password_macthing.style.color = "red";
+                              e.preventDefault();
+                           }else{
+                               alert("Submit Successful");
+                           }
+                       }
          </script>
 </body>
 </html>

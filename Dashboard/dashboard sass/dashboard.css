@@ -41,6 +41,12 @@ header .notification {
   color: white;
   font-size: 2em;
 }
+header .hamburger {
+  color: white;
+  font-size: 2em;
+  position: relative;
+  right: 20%;
+}
 
 .dashboard {
   position: fixed;
@@ -86,4 +92,17 @@ header .notification {
   line-height: 2em;
   color: black;
   padding-left: 1em;
+}
+
+.main {
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 20%;
+}
+.main .customer-registeration table tr th {
+  border: 1px solid black;
+  font-size: 1.2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }/*# sourceMappingURL=dashboard.css.map */
