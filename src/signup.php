@@ -34,7 +34,7 @@
                           <label>Re-type Password</label>
                           <input type="password" required autocomplete="off" name="retypepassword" id="confirmpassword">
                           <span id="password_not_matching"></span>
-                          <button name="submit" id="submit" onclick="submit()">Submit</button>
+                          <button name="submit" id="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -62,45 +62,18 @@
             $database_insert = "INSERT INTO customersignup(FullName, Email, Address, Mobile, Password, RetypePassword)VALUES('$fullname', '$email', '$address', '$mobile', '$pass_encrypt', '$retype_encrypt')";
              $customer_signup = mysqli_query($sqlconnection, $database_insert);
                           
-                print "<h1>Login Successful</h1>";
+                print "<h1>Signup Successful</h1>";
                           // header('location: twilighthotel.php');
               }else{
                 echo "<h1>Password are not matching</h1>";
+                return false;
               }
         }
         
       ?>
 
       <script type="text/javascript"> 
-        //    function load(e){
-        //     // return true;
-        //     let password = document.getElementById('password');
-        //     let confirm_password = document.getElementById('confirmpassword');
-        //     let password_macthing = document.getElementById('password_not_matching');
-
-        //     if(password == confirm_password){
-        //       password_macthing.innerText = "password are not matching";
-        //       password_macthing.style.color = "red";
-        //       e.preventDefault();
-        //     }
-          
-        // }
-        let submit = document.getElementById('submit');
-        let password = document.getElementById('password');
-         let confirm_password = document.getElementById('confirmpassword');
-        let password_macthing = document.getElementById('password_not_matching');
-            
-           
-                
-                        function submit(e){
-                             if(password != confirm_password){
-                            password_macthing.innerText = "password are not matching";
-                            password_macthing.style.color = "red";
-                              e.preventDefault();
-                           }else{
-                               alert("Submit Successful");
-                           }
-                       }
+        
          </script>
 </body>
 </html>
